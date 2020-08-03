@@ -31,7 +31,7 @@ public class Driver {
         // 2 pointers moving towards center, comparing each character
         int left = 0;
         int right = cleanedString.length()-1;
-        while(left <= right){
+        while(left < right){
             if(cleanedString.charAt(left) != cleanedString.charAt(right)){
                 return false;
             }
